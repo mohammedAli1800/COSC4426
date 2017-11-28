@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="480.0" prefWidth="640.0" styleClass="mainBackground" stylesheets="@GameTemplate.css" xmlns="http://javafx.com/javafx/8.0_40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxwordgame.FXMLSubGameController">
+    <children>
+        <Label fx:id="label_Time" alignment="BOTTOM_CENTER" layoutX="14.0" layoutY="14.0" prefHeight="46.0" prefWidth="164.0" text="Time : 0:00" textFill="#ff6b00">
+            <font>
+                <Font name="System Bold" size="22.0" />
+            </font>
+            <effect>
+                <Reflection fraction="0.41" topOpacity="0.17" />
+            </effect>
+        </Label>
+        <Label fx:id="label_Words" alignment="BOTTOM_CENTER" contentDisplay="CENTER" layoutX="214.0" layoutY="14.0" prefHeight="46.0" prefWidth="212.0" text="Words : 0/0" textFill="#ff6b00">
+            <font>
+                <Font name="System Bold" size="22.0" />
+            </font>
+            <effect>
+                <Reflection fraction="0.41" topOpacity="0.17" />
+            </effect>
+        </Label>
+        <Label fx:id="label_Level" alignment="BOTTOM_CENTER" contentDisplay="CENTER" layoutX="462.0" layoutY="14.0" prefHeight="46.0" prefWidth="164.0" text="Level : 1" textFill="#ff6b00">
+            <font>
+                <Font name="System Bold" size="22.0" />
+            </font>
+            <effect>
+                <Reflection fraction="0.41" topOpacity="0.17" />
+            </effect>
+        </Label>
+        <ProgressBar fx:id="progress_Main" layoutX="76.0" layoutY="190.0" prefHeight="46.0" prefWidth="329.0" progress="0.39" styleClass="mainProgressBarStyle" stylesheets="@GameTemplate.css" visible="false">
+            <effect>
+                <Reflection />
+            </effect>
+        </ProgressBar>
+        <TextField fx:id="input_Word" layoutX="263.0" layoutY="291.0" onAction="#onWordInput" prefHeight="46.0" prefWidth="279.0" promptText="Please enter word you heard." visible="false">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </TextField>
+        <Label fx:id="label_Main" alignment="CENTER" contentDisplay="CENTER" layoutX="99.0" layoutY="291.0" prefHeight="46.0" prefWidth="164.0" text="Guess Word :" visible="false">
+            <font>
+                <Font name="System Bold" size="22.0" />
+            </font>
+        </Label>
+        <Button fx:id="button_Start" alignment="CENTER" layoutX="190.0" layoutY="182.0" mnemonicParsing="false" onAction="#onStartGame" prefHeight="74.0" prefWidth="261.0" styleClass="startSubGameButtonStyle" stylesheets="@GameTemplate.css" text="Start" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="48.0" />
+            </font>
+            <effect>
+                <Reflection fraction="0.56" topOpacity="0.3" />
+            </effect>
+        </Button>
+        <Button fx:id="button_Back" alignment="CENTER" layoutX="233.0" layoutY="407.0" mnemonicParsing="false" onAction="#onBackToMain" prefHeight="39.0" prefWidth="173.0" styleClass="startSubGameButtonStyle" stylesheets="@GameTemplate.css" text="Back to main" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+            <effect>
+                <Reflection fraction="0.56" topOpacity="0.3" />
+            </effect>
+        </Button>
+        <Button fx:id="button_Stop" alignment="CENTER" layoutX="234.0" layoutY="407.0" mnemonicParsing="false" onAction="#onStopGame" prefHeight="39.0" prefWidth="173.0" styleClass="startSubGameButtonStyle" stylesheets="@GameTemplate.css" text="Stop Game" textFill="WHITE" visible="false">
+            <font>
+                <Font name="System Bold" size="18.0" />
+            </font>
+            <effect>
+                <Reflection fraction="0.56" topOpacity="0.3" />
+            </effect>
+        </Button>
+      <Label fx:id="label_Output" alignment="CENTER" layoutX="13.0" layoutY="89.0" prefHeight="66.0" prefWidth="612.0" textFill="#c63f00" visible="false">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="button_SpeakAgain" alignment="CENTER" layoutX="418.0" layoutY="191.0" mnemonicParsing="false" onAction="#talkAgain" prefHeight="45.0" prefWidth="143.0" styleClass="startSubGameButtonStyle" stylesheets="@GameTemplate.css" text="Speak again" textFill="WHITE" visible="false">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <effect>
+            <Reflection fraction="0.56" topOpacity="0.3" />
+         </effect>
+      </Button>
+    </children>
+</AnchorPane>

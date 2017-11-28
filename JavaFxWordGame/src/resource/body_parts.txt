@@ -1,0 +1,76 @@
+eye
+ear
+arm
+hair
+neck
+head 
+face
+foot
+lung
+hand 
+skin
+ankle
+blood
+belly
+chest
+cheek
+elbow
+femur
+heart
+liver
+molar
+pupil
+artery
+breast
+carpal
+coccyx
+eyelid
+finger
+glands
+instep
+kidney
+larynx
+muscle
+anatomy
+abdomen
+bladder
+filling
+humerus
+patella
+pharynx
+scapula
+sternum
+stomach
+thyroid
+appendix
+buttocks
+clavicle
+follicle
+forehead
+ligament
+mandible
+pancreas
+shoulder
+skeleton
+vertebra
+capillary
+cartilage
+esophagus
+eyelashes
+phalanges
+lymph node
+pituitary
+fingernail
+intestines
+metacarpal
+metatarsal
+lymph node
+collar bone
+spinal cord
+blood cells
+belly button
+index finger
+gallbladder
+blood vessels
+adrenal gland
+spinal column

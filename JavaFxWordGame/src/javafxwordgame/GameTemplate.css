@@ -1,0 +1,40 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainBackground{
+    -fx-background-color:  #a2daff;
+}
+
+.mainButtonStyle {
+    -fx-background-radius: 50;
+    -fx-border-radius: 50;   
+    -fx-border-color: white;
+    -fx-background-color:#d06200; 
+    -fx-border-width: 3;
+}
+
+.mainExitButtonStyle {
+    -fx-background-radius: 50;
+    -fx-border-radius: 50;   
+    -fx-border-color: white;
+    -fx-background-color:#0091ff; 
+    -fx-border-width: 3;
+}
+
+.startSubGameButtonStyle {
+    -fx-background-radius: 50;
+    -fx-border-radius: 50;  
+    -fx-border-color: white;
+    -fx-background-color:#d06200; 
+    -fx-border-width: 3;
+}
+
+.mainProgressBarStyle {
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;    
+}
+
+.mainTopLabelStyle{
+    
+}

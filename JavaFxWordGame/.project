@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>JavaFxWordGame</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<variableList>
+		<variable>
+			<name>animals</name>
+			<value>file:/H:/Tasks/40_Java_audioGame/JavaWordGame/JavaFxWordGame/src/resource/animals.txt</value>
+		</variable>
+		<variable>
+			<name>body_parts</name>
+			<value>file:/H:/Tasks/40_Java_audioGame/JavaWordGame/JavaFxWordGame/src/resource/body_parts.txt</value>
+		</variable>
+		<variable>
+			<name>electronics</name>
+			<value>file:/H:/Tasks/40_Java_audioGame/JavaWordGame/JavaFxWordGame/src/resource/electronics.txt</value>
+		</variable>
+		<variable>
+			<name>foods</name>
+			<value>file:/H:/Tasks/40_Java_audioGame/JavaWordGame/JavaFxWordGame/src/resource/foods.txt</value>
+		</variable>
+		<variable>
+			<name>space</name>
+			<value>file:/H:/Tasks/40_Java_audioGame/JavaWordGame/JavaFxWordGame/src/resource/space.txt</value>
+		</variable>
+	</variableList>
+</projectDescription>

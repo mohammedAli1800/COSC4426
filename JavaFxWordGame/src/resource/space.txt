@@ -1,0 +1,102 @@
+day
+dust
+lens
+Mars
+mass
+nova
+moon
+sky
+sun
+star
+mare
+comet
+Deneb
+Earth
+flare
+lunar
+nadir
+orbit
+phase
+rings
+solar
+space
+albedo
+apogee
+cosmos
+corona
+crater
+helium
+nebula
+parsec
+planet
+pulsar
+rocket
+azimuth
+cluster
+density
+docking
+eclipse
+equinox
+gravity
+inertia
+Jupiter
+Mercury
+Neptune
+apastron
+asteroid
+asterism
+cislunar
+hydrogen
+parallax
+local arm
+penumbra
+sidereal
+solstice
+spectrum
+astronaut
+astronomy
+bolometer
+celestial
+exoplanet
+hypernova
+meteoroid
+radiation
+planetoid
+satellite
+starlight
+astronomer
+wavelength
+ionosphere
+opposition
+perihelion
+precession
+terminator
+translunar
+double star
+kiloparsec
+local group
+conjunction
+declination
+inclination
+falling star
+minor planet
+neutron star
+singularity
+terrestrial
+gegenschein
+gravitation
+observatory
+spectroscope
+shooting star
+outer planets
+interstellar
+heliocentric
+interstellar
+perturbation
+extragalaxtic
+constellation
+coriolis force
+geostationary
+scintillation
+weightlessness
+geosynchronous
